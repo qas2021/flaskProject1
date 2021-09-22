@@ -6,7 +6,6 @@ from flask_sqlalchemy import SQLAlchemy
 # from marshmallow_sqlalchemy import ModelSchema
 from marshmallow import fields
 import pymysql
-import get
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://qasim:Qwer_1234-@localhost/lostnfound'
