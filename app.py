@@ -110,7 +110,7 @@ def search():
                 'description': book.description,
                 'date': book.date,
                 # 'img': book.datai
-            })lmjo
+            })
         meta = {
             'page': bookmark.page,
             'pages': bookmark.pages,
